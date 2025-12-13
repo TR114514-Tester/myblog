@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // ==================== 可配置变量 ====================
     const BACKGROUND = "http://blog.traveler.dpdns.org/assets/image/background.png";
     const BLUR_STRENGTH = '8px'; // 模糊程度：5px, 8px, 10px, 15px等
-    const BUTTON_HOVER_COLOR = '#3cd2cd'; // 右上角按钮悬停颜色，可修改为其他颜色如：#4CAF50, #2196F3, #FF9800, #9C27B0
+    const BUTTON_HOVER_COLOR = '#000000'; // 右上角按钮悬停颜色，可修改为其他颜色如：#4CAF50, #2196F3, #FF9800, #9C27B0
     // ====================================================
     
     // ==================== 自动导入 MDUI 2 CSS 和 JS ====================
