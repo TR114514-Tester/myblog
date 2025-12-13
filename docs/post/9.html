@@ -9,7 +9,7 @@
     <link rel="icon" href="https://blog.traveler.dpdns.org/assets/image/icon.png">
 <meta name="description" content="# Live2D-Widget
 首先，打开原作者的地址[live2d-widget](https://github.com/stevenjoezhang/live2d-widget/ 'live2d-widget')可以看到有一个一键部署
-```
+```javascript
 <script src='https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js'></script>
 ```
 但是我们地处**中国**，所以在国内慢成依托答辩
@@ -27,7 +27,7 @@
 # 配置Live2D-API
 **示例**：
 
-```
+```javascript
 /*!
  * Live2D Widget
  * https://github.com/stevenjoezhang/live2d-widget
@@ -41,7 +41,7 @@ const live2d_path = 'https://blog.traveler.dpdns.org/live2d/';
 
 再找到下面这个
 
-```
+```javascript
 initWidget({
     waifuPath: live2d_path + 'waifu-tips.json',
     cdnPath: 'https://blog.traveler.dpdns.org/live2d_api/',
@@ -64,7 +64,7 @@ initWidget({
 > Github默认配置不能上传超过100个文件，分批次上传即可
 
 配置`models.json`
-```
+```json
 {
     'models': [
         'bilibili-live/22',
@@ -124,7 +124,7 @@ initWidget({
 <meta property="og:title" content="在自己的网站添加Live2D看板娘">
 <meta property="og:description" content="# Live2D-Widget
 首先，打开原作者的地址[live2d-widget](https://github.com/stevenjoezhang/live2d-widget/ 'live2d-widget')可以看到有一个一键部署
-```
+```javascript
 <script src='https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js'></script>
 ```
 但是我们地处**中国**，所以在国内慢成依托答辩
@@ -142,7 +142,7 @@ initWidget({
 # 配置Live2D-API
 **示例**：
 
-```
+```javascript
 /*!
  * Live2D Widget
  * https://github.com/stevenjoezhang/live2d-widget
@@ -156,7 +156,7 @@ const live2d_path = 'https://blog.traveler.dpdns.org/live2d/';
 
 再找到下面这个
 
-```
+```javascript
 initWidget({
     waifuPath: live2d_path + 'waifu-tips.json',
     cdnPath: 'https://blog.traveler.dpdns.org/live2d_api/',
@@ -179,7 +179,7 @@ initWidget({
 > Github默认配置不能上传超过100个文件，分批次上传即可
 
 配置`models.json`
-```
+```json
 {
     'models': [
         'bilibili-live/22',
@@ -240,7 +240,7 @@ initWidget({
 <meta property="og:url" content="http://blog.traveler.dpdns.org/post/9.html">
 <meta property="og:image" content="https://blog.traveler.dpdns.org/assets/image/icon.png">
 <title>在自己的网站添加Live2D看板娘</title>
-
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 
 </head>
@@ -302,8 +302,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><h1>Live2D-Widget</h1>
 <p>首先，打开原作者的地址<a href="https://github.com/stevenjoezhang/live2d-widget/" title="live2d-widget">live2d-widget</a>可以看到有一个一键部署</p>
-<pre class="notranslate"><code class="notranslate">&lt;script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"&gt;&lt;/script&gt;
-</code></pre>
+<div class="highlight highlight-source-js"><pre class="notranslate"><span class="pl-c1">&lt;</span><span class="pl-s1">script</span> <span class="pl-c1">src</span><span class="pl-c1">=</span><span class="pl-s">"https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"</span><span class="pl-c1">&gt;</span><span class="pl-kos">&lt;/</span><span class="pl-s1">script</span><span class="pl-c1">&gt;</span></pre></div>
 <p>但是我们地处<strong>中国</strong>，所以在国内慢成依托答辩<br>
 所以把他上传到我们的<strong>网站</strong>即可<br>
 我们打开<a href="https://github.com/stevenjoezhang/live2d-widget/" title="live2d-widget">live2d-widget</a>的Github界面，下载它的ZIP，然后我们上传到网站根目录（只需要把<code class="notranslate">dist</code>文件夹里面的上传即可）<br>
@@ -315,26 +314,24 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 修改<code class="notranslate">live2d_path</code>为自己上传的路径，也就是<strong><a href="https://blog.traveler.dpdns.org/live2d/" rel="nofollow">https://blog.traveler.dpdns.org/live2d/</a></strong></p>
 <h1>配置Live2D-API</h1>
 <p><strong>示例</strong>：</p>
-<pre class="notranslate"><code class="notranslate">/*!
- * Live2D Widget
- * https://github.com/stevenjoezhang/live2d-widget
- */
+<div class="highlight highlight-source-js"><pre class="notranslate"><span class="pl-c">/*!</span>
+<span class="pl-c"> * Live2D Widget</span>
+<span class="pl-c"> * https://github.com/stevenjoezhang/live2d-widget</span>
+<span class="pl-c"> */</span>
 
-// Recommended to use absolute path for live2d_path parameter
-// live2d_path 参数建议使用绝对路径
-const live2d_path = 'https://blog.traveler.dpdns.org/live2d/';
-// const live2d_path = '/dist/';
-</code></pre>
+<span class="pl-c">// Recommended to use absolute path for live2d_path parameter</span>
+<span class="pl-c">// live2d_path 参数建议使用绝对路径</span>
+<span class="pl-k">const</span> <span class="pl-s1">live2d_path</span> <span class="pl-c1">=</span> <span class="pl-s">'https://blog.traveler.dpdns.org/live2d/'</span><span class="pl-kos">;</span>
+<span class="pl-c">// const live2d_path = '/dist/';</span></pre></div>
 <p>再找到下面这个</p>
-<pre class="notranslate"><code class="notranslate">initWidget({
-    waifuPath: live2d_path + 'waifu-tips.json',
-    cdnPath: 'https://blog.traveler.dpdns.org/live2d_api/',
-    cubism2Path: live2d_path + 'live2d.min.js',
-    cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
-    tools: ['hitokoto', 'asteroids', 'switch-model', 'switch-texture', 'photo', 'info'],
-    logLevel: 'warn',
-    drag: false,
-</code></pre>
+<div class="highlight highlight-source-js"><pre class="notranslate"><span class="pl-s1">initWidget</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
+    <span class="pl-c1">waifuPath</span>: <span class="pl-s1">live2d_path</span> <span class="pl-c1">+</span> <span class="pl-s">'waifu-tips.json'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">cdnPath</span>: <span class="pl-s">'https://blog.traveler.dpdns.org/live2d_api/'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">cubism2Path</span>: <span class="pl-s1">live2d_path</span> <span class="pl-c1">+</span> <span class="pl-s">'live2d.min.js'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">cubism5Path</span>: <span class="pl-s">'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">tools</span>: <span class="pl-kos">[</span><span class="pl-s">'hitokoto'</span><span class="pl-kos">,</span> <span class="pl-s">'asteroids'</span><span class="pl-kos">,</span> <span class="pl-s">'switch-model'</span><span class="pl-kos">,</span> <span class="pl-s">'switch-texture'</span><span class="pl-kos">,</span> <span class="pl-s">'photo'</span><span class="pl-kos">,</span> <span class="pl-s">'info'</span><span class="pl-kos">]</span><span class="pl-kos">,</span>
+    <span class="pl-c1">logLevel</span>: <span class="pl-s">'warn'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">drag</span>: <span class="pl-c1">false</span><span class="pl-kos">,</span></pre></div>
 <p>先修改<code class="notranslate">cdnPath</code>为另一个目录（<code class="notranslate">live2d_api</code>，等会就要配置了）<br>
 在修改下面的<code class="notranslate">tools</code>，去掉没有用的</p>
 <p>#Live2D_API<br>
@@ -344,47 +341,46 @@ const live2d_path = 'https://blog.traveler.dpdns.org/live2d/';
 <div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>Github默认配置不能上传超过100个文件，分批次上传即可</p>
 </div>
 <p>配置<code class="notranslate">models.json</code></p>
-<pre class="notranslate"><code class="notranslate">{
-    "models": [
-        "bilibili-live/22",
-        "bilibili-live/33",
+<div class="highlight highlight-source-json"><pre class="notranslate">{
+    <span class="pl-ent">"models"</span>: [
+        <span class="pl-s"><span class="pl-pds">"</span>bilibili-live/22<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>bilibili-live/33<span class="pl-pds">"</span></span>,
         [
-            "ShizukuTalk/shizuku-48",
-            "ShizukuTalk/shizuku-pajama"
+            <span class="pl-s"><span class="pl-pds">"</span>ShizukuTalk/shizuku-48<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>ShizukuTalk/shizuku-pajama<span class="pl-pds">"</span></span>
         ],
         [
-            "HyperdimensionNeptunia/neptune_classic",
-            "HyperdimensionNeptunia/nepnep",
-            "HyperdimensionNeptunia/neptune_santa",
-            "HyperdimensionNeptunia/nepmaid",
-            "HyperdimensionNeptunia/nepswim",
-            "HyperdimensionNeptunia/noir_classic",
-            "HyperdimensionNeptunia/noir",
-            "HyperdimensionNeptunia/noir_santa",
-            "HyperdimensionNeptunia/noireswim",
-            "HyperdimensionNeptunia/blanc_classic",
-            "HyperdimensionNeptunia/blanc_normal",
-            "HyperdimensionNeptunia/blanc_swimwear",
-            "HyperdimensionNeptunia/vert_classic",
-            "HyperdimensionNeptunia/vert_normal",
-            "HyperdimensionNeptunia/vert_swimwear",
-            "HyperdimensionNeptunia/nepgear",
-            "HyperdimensionNeptunia/nepgear_extra",
-            "HyperdimensionNeptunia/nepgearswim",
-            "HyperdimensionNeptunia/histoire",
-            "HyperdimensionNeptunia/histoirenohover"
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/neptune_classic<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/nepnep<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/neptune_santa<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/nepmaid<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/nepswim<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/noir_classic<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/noir<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/noir_santa<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/noireswim<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/blanc_classic<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/blanc_normal<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/blanc_swimwear<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/vert_classic<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/vert_normal<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/vert_swimwear<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/nepgear<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/nepgear_extra<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/nepgearswim<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/histoire<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>HyperdimensionNeptunia/histoirenohover<span class="pl-pds">"</span></span>
         ],
-        "KantaiCollection/murakumo"
+        <span class="pl-s"><span class="pl-pds">"</span>KantaiCollection/murakumo<span class="pl-pds">"</span></span>
     ],
-    "messages": [
-        "来自 Bilibili Live 的 22 哦 ~",
-        "来自 Bilibili Live 的 33 的说",
-        "Shizuku Talk ！这里是 Shizuku ~",
-        "Nep! Nep! 超次元游戏：海王星 系列",
-        "艦隊これくしょん / 叢雲(むらくも)"
+    <span class="pl-ent">"messages"</span>: [
+        <span class="pl-s"><span class="pl-pds">"</span>来自 Bilibili Live 的 22 哦 ~<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>来自 Bilibili Live 的 33 的说<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>Shizuku Talk ！这里是 Shizuku ~<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>Nep! Nep! 超次元游戏：海王星 系列<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>艦隊これくしょん / 叢雲(むらくも)<span class="pl-pds">"</span></span>
     ]
-}
-</code></pre>
+}</pre></div>
 <div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p><p>注意JSON格式，最后一格不要写英文逗号</p>
 </div>
 <p>而且<code class="notranslate">models</code>的顺序就是切换的顺序</p>

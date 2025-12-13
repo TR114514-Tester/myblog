@@ -1,6 +1,6 @@
 # Live2D-Widget
 首先，打开原作者的地址[live2d-widget](https://github.com/stevenjoezhang/live2d-widget/ "live2d-widget")可以看到有一个一键部署
-```
+```javascript
 <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 ```
 但是我们地处**中国**，所以在国内慢成依托答辩
@@ -18,7 +18,7 @@
 # 配置Live2D-API
 **示例**：
 
-```
+```javascript
 /*!
  * Live2D Widget
  * https://github.com/stevenjoezhang/live2d-widget
@@ -32,7 +32,7 @@ const live2d_path = 'https://blog.traveler.dpdns.org/live2d/';
 
 再找到下面这个
 
-```
+```javascript
 initWidget({
     waifuPath: live2d_path + 'waifu-tips.json',
     cdnPath: 'https://blog.traveler.dpdns.org/live2d_api/',
@@ -55,7 +55,7 @@ initWidget({
 > Github默认配置不能上传超过100个文件，分批次上传即可
 
 配置`models.json`
-```
+```json
 {
     "models": [
         "bilibili-live/22",
