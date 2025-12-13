@@ -1,4 +1,4 @@
-name: build Gmeek
+name: Build Or Update Gmeek
 
 on:
   workflow_dispatch:
