@@ -1,87 +1,48 @@
-
-const rainstyle = document.createElement('style');
-rainstyle.type = 'text/css';
-rainstyle.innerHTML = `
-    * {
-        padding: 0;
-        margin: 0;
+document.addEventListener('DOMContentLoaded', function() {
+    const canvas = document.getElementById('rainCanvas');
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    
+    window.addEventListener('resize', function() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    });
+    
+    const drops = [];
+    for (let i = 0; i < 120; i++) {
+        drops.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            l: 10 + Math.random() * 20,
+            s: 3 + Math.random() * 5
+        });
     }
-    .raincontent {
-        width: 100%;
-        height: 100%;
-    }
-    #rainBox {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        pointer-events: none;
-    }
-    .rain {
-        position: absolute;
-        width: 2px;
-        height: 50px;
-        background: linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.6));
-    }
-`;
-document.head.appendChild(rainstyle);
-
-// 创建结构
-const raincontent = document.createElement('div');
-raincontent.classList.add('raincontent');
-const rainBox = document.createElement('div');
-rainBox.id = 'rainBox';
-raincontent.appendChild(rainBox);
-document.body.appendChild(raincontent);
-
-// 获取rainBox元素
-const box = document.getElementById('rainBox');
-
-// 定义box的高度和宽度
-let boxHeight = box.clientHeight;
-let boxWidth = box.clientWidth;
-
-// 窗口加载时更新box的高度和宽度
-window.onload = function () {
-    boxHeight = box.clientHeight;
-    boxWidth = box.clientWidth;
-};
-
-// 窗口大小变化时更新box的高度和宽度
-window.onresize = function () {
-    boxHeight = box.clientHeight;
-    boxWidth = box.clientWidth;
-};
-
-// 每隔50毫秒添加一个新的雨点
-setInterval(() => {
-    // 创建一个新的div元素表示雨点
-    const rain = document.createElement('div');
-
-    // 添加类名'rain'到雨点元素
-    rain.classList.add('rain');
-
-    // 设置雨点的初始位置
-    rain.style.top = '0px';
-    rain.style.left = Math.random() * boxWidth + 'px';
-
-    // 设置雨点的随机透明度
-    rain.style.opacity = Math.random();
-
-    // 将雨点元素添加到rainBox中
-    box.appendChild(rain);
-
-    // 每隔20毫秒更新雨点的位置，使其下落
-    let race = 1;
-    const timer = setInterval(() => {
-        // 如果雨点到达底部，则清除定时器并移除雨点
-        if (parseInt(rain.style.top) > boxHeight) {
-            clearInterval(timer);
-            box.removeChild(rain);
+    
+    function draw() {
+        ctx.fillStyle = 'rgba(10, 25, 49, 0.1)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        for (let i = 0; i < drops.length; i++) {
+            const d = drops[i];
+            ctx.beginPath();
+            ctx.moveTo(d.x, d.y);
+            ctx.lineTo(d.x, d.y + d.l);
+            ctx.strokeStyle = '#AEC2E0';
+            ctx.lineWidth = 1;
+            ctx.stroke();
+            
+            d.y += d.s;
+            if (d.y > canvas.height) {
+                d.y = -20;
+                d.x = Math.random() * canvas.width;
+            }
         }
-        // 增加雨点的下落速度
-        race++;
-        rain.style.top = parseInt(rain.style.top) + race + 'px';
-    }, 20);
-}, 50);
+        
+        requestAnimationFrame(draw);
+    }
+    
+    draw();
+});
