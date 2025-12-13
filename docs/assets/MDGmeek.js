@@ -1,6 +1,6 @@
 // 添加高斯模糊程度变量（可调整）
 const BLUR_INTENSITY = '10px'; // 高斯模糊程度，可修改这个值
-const BUTTON_HOVER_COLOR = '#000000'; // 右上角按钮悬浮颜色，可修改这个值（支持 #000000, rgb(255,0,0), rgba(255,0,0,0.8) 等格式）
+const BUTTON_HOVER_COLOR = '#3cd2cd'; // 右上角按钮悬浮颜色，可修改这个值（支持 #000000, rgb(255,0,0), rgba(255,0,0,0.8) 等格式）
 
 document.addEventListener('DOMContentLoaded', function() {
     const BACKGROUND = "http://blog.traveler.dpdns.org/assets/image/background.png";
@@ -37,6 +37,38 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.innerHTML = '';
     document.body.appendChild(cardContainer);
     cardContainer.innerHTML = bodyContent;
+    
+    // 为SideNav-item添加MDUI卡片样式
+    function applySideNavCardStyles() {
+        const sideNavItems = document.querySelectorAll('.SideNav-item');
+        sideNavItems.forEach(item => {
+            // 为每个SideNav-item添加MDUI卡片类
+            item.classList.add('mdui-card', 'mdui-card-content');
+            item.style.cssText += `
+                padding: 16px !important;
+                margin-bottom: 16px !important;
+                border-radius: 12px !important;
+                background: rgba(255, 255, 255, 0.25) !important;
+                backdrop-filter: blur(5px) !important;
+                -webkit-backdrop-filter: blur(5px) !important;
+                border: 1px solid rgba(255, 255, 255, 0.2) !important;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+                cursor: pointer;
+            `;
+            
+            // 如果SideNav-item是链接，确保内部文字居中对齐
+            const link = item.querySelector('a');
+            if (link) {
+                link.style.cssText += `
+                    display: block !important;
+                    text-decoration: none !important;
+                    color: inherit !important;
+                    text-align: center !important;
+                    padding: 8px 0 !important;
+                `;
+            }
+        });
+    }
     
     //判断url，添加主题------------------------------------------------------------------------
     let currentUrl = window.location.pathname;
@@ -112,21 +144,44 @@ document.addEventListener('DOMContentLoaded', function() {
             border: 1px solid rgba(255, 255, 255, 0.3) !important;
         }
         
+        /* SideNav容器样式 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.3);
+            background: transparent !important;
             border-radius: 10px;
             min-width: unset;
+            padding: 0 !important;
+            margin: 20px 0 !important;
+        }
+        
+        /* SideNav-item MDUI卡片样式 */
+        .SideNav-item {
+            background: rgba(255, 255, 255, 0.25) !important;
+            backdrop-filter: blur(5px) !important;
+            -webkit-backdrop-filter: blur(5px) !important;
+            border-radius: 12px !important;
+            margin-bottom: 16px !important;
+            padding: 16px !important;
+            border: 1px solid rgba(255, 255, 255, 0.2) !important;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
         }
         
         .SideNav-item:hover {
-            background-color: rgba(195, 228, 227, 0.7);
-            border-radius: 10px;
-            transform: scale(1.02);
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            background-color: rgba(255, 255, 255, 0.4) !important;
+            border-radius: 12px !important;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+            border-color: rgba(255, 255, 255, 0.3) !important;
         }
         
-        .SideNav-item {
-            transition: 0.5s;
+        .SideNav-item a {
+            display: block !important;
+            text-decoration: none !important;
+            color: inherit !important;
+            text-align: center !important;
+            padding: 8px 0 !important;
+            font-weight: 500 !important;
         }
         
         /* 分页条 */
@@ -178,6 +233,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 button.appendChild(btndescription);
             }
         });
+        
+        // 应用SideNav卡片样式
+        setTimeout(applySideNavCardStyles, 100);
 
     } else if (currentUrl.includes('/post/') || currentUrl.includes('/link.html') || currentUrl.includes('/about.html')) {
         console.log('MDGmeek : 应用文章页主题');
@@ -294,6 +352,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 button.appendChild(btndescription);
             }
         });
+        
+        // 应用SideNav卡片样式（如果文章页也有SideNav）
+        setTimeout(applySideNavCardStyles, 100);
 
     } else if (currentUrl.includes('/tag.html')) {
         console.log('MDGmeek : 应用搜索页主题');
@@ -344,21 +405,44 @@ document.addEventListener('DOMContentLoaded', function() {
             border: 1px solid rgba(255, 255, 255, 0.3) !important;
         }
         
+        /* SideNav容器样式 */
         .SideNav {
-            background: rgba(255, 255, 255, 0.3);
+            background: transparent !important;
             border-radius: 10px;
             min-width: unset;
+            padding: 0 !important;
+            margin: 20px 0 !important;
+        }
+        
+        /* SideNav-item MDUI卡片样式 */
+        .SideNav-item {
+            background: rgba(255, 255, 255, 0.25) !important;
+            backdrop-filter: blur(5px) !important;
+            -webkit-backdrop-filter: blur(5px) !important;
+            border-radius: 12px !important;
+            margin-bottom: 16px !important;
+            padding: 16px !important;
+            border: 1px solid rgba(255, 255, 255, 0.2) !important;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
         }
         
         .SideNav-item:hover {
-            background-color: rgba(195, 228, 227, 0.7);
-            border-radius: 10px;
-            transform: scale(1.02);
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            background-color: rgba(255, 255, 255, 0.4) !important;
+            border-radius: 12px !important;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+            border-color: rgba(255, 255, 255, 0.3) !important;
         }
         
-        .SideNav-item {
-            transition: 0.5s;
+        .SideNav-item a {
+            display: block !important;
+            text-decoration: none !important;
+            color: inherit !important;
+            text-align: center !important;
+            padding: 8px 0 !important;
+            font-weight: 500 !important;
         }
         
         /* 右上角按钮 */
@@ -431,6 +515,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 button.click();
             }
         });
+        
+        // 应用SideNav卡片样式
+        setTimeout(applySideNavCardStyles, 100);
 
     } else {
         console.log('MDGmeek : 未应用主题');
@@ -447,6 +534,35 @@ document.addEventListener('DOMContentLoaded', function() {
         .mdui-card:hover {
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2) !important;
         }
+        
+        /* SideNav-item卡片样式增强 */
+        .SideNav-item.mdui-card {
+            animation: fadeInUp 0.5s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* 为每个SideNav-item添加交错动画延迟 */
+        .SideNav-item:nth-child(1) { animation-delay: 0.1s; }
+        .SideNav-item:nth-child(2) { animation-delay: 0.2s; }
+        .SideNav-item:nth-child(3) { animation-delay: 0.3s; }
+        .SideNav-item:nth-child(4) { animation-delay: 0.4s; }
+        .SideNav-item:nth-child(5) { animation-delay: 0.5s; }
+        .SideNav-item:nth-child(6) { animation-delay: 0.6s; }
+        .SideNav-item:nth-child(7) { animation-delay: 0.7s; }
+        .SideNav-item:nth-child(8) { animation-delay: 0.8s; }
     `;
     document.head.appendChild(defaultCardStyle);
+    
+    // 延迟执行，确保DOM完全加载
+    setTimeout(() => {
+        applySideNavCardStyles();
+    }, 300);
 });
