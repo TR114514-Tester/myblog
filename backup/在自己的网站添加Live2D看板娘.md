@@ -15,7 +15,6 @@
 
 打开`autoload.js`
 修改`live2d_path`为自己上传的路径，也就是**https://blog.traveler.dpdns.org/live2d/**
-# 配置Live2D-API
 **示例**：
 
 ```javascript
@@ -53,8 +52,9 @@ initWidget({
 
 > [!TIP]
 > Github默认配置不能上传超过100个文件，分批次上传即可
-
+# 配置Live2D-API
 配置`models.json`
+
 ```json
 {
     "models": [

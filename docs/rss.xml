@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514的博客</title><link>http://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题，还有乐子看</description><copyright>TR114514的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>http://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 13 Dec 2025 09:16:11 +0000</lastBuildDate><managingEditor>TR114514的博客</managingEditor><ttl>60</ttl><webMaster>TR114514的博客</webMaster><item><title>在自己的网站添加Live2D看板娘</title><link>http://blog.traveler.dpdns.org/post/9.html</link><description># Live2D-Widget
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514的博客</title><link>http://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题，还有乐子看</description><copyright>TR114514的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>http://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 13 Dec 2025 09:17:48 +0000</lastBuildDate><managingEditor>TR114514的博客</managingEditor><ttl>60</ttl><webMaster>TR114514的博客</webMaster><item><title>在自己的网站添加Live2D看板娘</title><link>http://blog.traveler.dpdns.org/post/9.html</link><description># Live2D-Widget
 首先，打开原作者的地址[live2d-widget](https://github.com/stevenjoezhang/live2d-widget/ 'live2d-widget')可以看到有一个一键部署
 ```javascript
 &lt;script src='https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js'&gt;&lt;/script&gt;
@@ -16,7 +16,6 @@
 
 打开`autoload.js`
 修改`live2d_path`为自己上传的路径，也就是**https://blog.traveler.dpdns.org/live2d/**
-# 配置Live2D-API
 **示例**：
 
 ```javascript
@@ -54,8 +53,9 @@ initWidget({
 
 &gt; [!TIP]
 &gt; Github默认配置不能上传超过100个文件，分批次上传即可
-
+# 配置Live2D-API
 配置`models.json`
+
 ```json
 {
     'models': [
