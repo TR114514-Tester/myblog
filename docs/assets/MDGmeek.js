@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     // ==================== 可配置变量 ====================
     const BACKGROUND = "http://blog.traveler.dpdns.org/assets/image/background.png";
-    const BLUR_STRENGTH = '8px'; // 可以调整这里的值来控制模糊程度：5px, 10px, 15px等
+    const BLUR_STRENGTH = '8px'; // 模糊程度：5px, 8px, 10px, 15px等
+    const BUTTON_HOVER_COLOR = '#000000'; // 右上角按钮悬停颜色，可修改为其他颜色如：#4CAF50, #2196F3, #FF9800, #9C27B0
     // ====================================================
     
     // ==================== 自动导入 MDUI 2 CSS 和 JS ====================
@@ -33,19 +34,19 @@ document.addEventListener('DOMContentLoaded', function() {
         cardContainer.className = 'mdui-container';
         cardContainer.style.padding = '16px';
         cardContainer.style.maxWidth = '1100px';
-        cardContainer.style.margin = '30px auto'; // 确保居中
-        cardContainer.style.display = 'flex'; // 使用flex布局
-        cardContainer.style.justifyContent = 'center'; // 水平居中
-        cardContainer.style.alignItems = 'flex-start'; // 顶部对齐
+        cardContainer.style.margin = '30px auto';
+        cardContainer.style.display = 'flex';
+        cardContainer.style.justifyContent = 'center';
+        cardContainer.style.alignItems = 'flex-start';
         
         // 创建卡片
         const card = document.createElement('mdui-card');
         card.setAttribute('variant', 'elevated');
         card.style.borderRadius = '10px';
         card.style.overflow = 'hidden';
-        card.style.width = '100%'; // 确保卡片宽度填充容器
-        card.style.maxWidth = '1100px'; // 与容器最大宽度一致
-        card.style.minHeight = 'calc(100vh - 60px)'; // 减去上下margin
+        card.style.width = '100%';
+        card.style.maxWidth = '1100px';
+        card.style.minHeight = 'calc(100vh - 60px)';
         card.style.display = 'flex';
         card.style.flexDirection = 'column';
         card.style.position = 'relative';
@@ -93,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 background-size: cover !important;
                 display: flex;
                 flex-direction: column;
-                align-items: center; /* 确保内容水平居中 */
+                align-items: center;
             }
             
             /* 高斯模糊关键样式 */
@@ -108,8 +109,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 background-size: cover;
                 filter: blur(${BLUR_STRENGTH}) !important;
                 -webkit-filter: blur(${BLUR_STRENGTH}) !important;
-                transform: scale(1.1); /* 扩大背景避免边缘模糊不全 */
-                margin: -20px; /* 扩大模糊区域 */
+                transform: scale(1.1);
+                margin: -20px;
             }
             
             /* 卡片内容区域样式 */
@@ -143,6 +144,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // ====================================================================
 
     // ==================== 各页面主题调整 ====================
+    // 将颜色值转换为RGBA格式（保持0.9透明度）
+    function getHoverColorRgba() {
+        // 将十六进制颜色转换为RGB
+        const hex = BUTTON_HOVER_COLOR.replace('#', '');
+        const r = parseInt(hex.substring(0, 2), 16);
+        const g = parseInt(hex.substring(2, 4), 16);
+        const b = parseInt(hex.substring(4, 6), 16);
+        return `rgba(${r}, ${g}, ${b}, 0.9)`;
+    }
+    
+    // 获取转换后的颜色
+    const buttonHoverRgba = getHoverColorRgba();
+    
     if (currentUrl.includes('/index.html') || currentUrl === "/") {
         console.log('MDGmeek : 应用主页主题 (带高斯模糊的MDUI卡片)');
         let style = document.createElement("style");
@@ -218,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
             border-color: rebeccapurple;
         }
         
-        /* 右上角按钮 */
+        /* 右上角按钮 - 使用配置的颜色变量 */
         div.title-right .btn {
             display: inline-flex;
             align-items: center;
@@ -235,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
         div.title-right .btn:hover {
             width: auto;
             border-radius: 2em !important;
-            background-color: rgba(60, 210, 205, 0.9) !important;
+            background-color: ${buttonHoverRgba} !important;
         }
         
         div.title-right .btn .btndescription {
@@ -318,7 +332,7 @@ document.addEventListener('DOMContentLoaded', function() {
             border-radius: 10px;
         }
 
-        /* 右上角按钮 */
+        /* 右上角按钮 - 使用配置的颜色变量 */
         div.title-right .btn {
             display: inline-flex;
             align-items: center;
@@ -335,7 +349,7 @@ document.addEventListener('DOMContentLoaded', function() {
         div.title-right .btn:hover {
             width: auto;
             border-radius: 2em !important;
-            background-color: rgba(60, 210, 205, 0.9) !important;
+            background-color: ${buttonHoverRgba} !important;
         }
 
         div.title-right .btn .btndescription {
@@ -409,7 +423,7 @@ document.addEventListener('DOMContentLoaded', function() {
             transition: 0.5s;
         }
         
-        /* 右上角按钮 */
+        /* 右上角按钮 - 使用配置的颜色变量 */
         div.title-right .btn {
             display: inline-flex;
             align-items: center;
@@ -426,7 +440,7 @@ document.addEventListener('DOMContentLoaded', function() {
         div.title-right .btn:hover {
             width: auto;
             border-radius: 2em !important;
-            background-color: rgba(60, 210, 205, 0.9) !important;
+            background-color: ${buttonHoverRgba} !important;
         }
         
         div.title-right .btn .btndescription {
