@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514的博客</title><link>http://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题</description><copyright>TR114514的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>http://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 13 Dec 2025 10:47:00 +0000</lastBuildDate><managingEditor>TR114514的博客</managingEditor><ttl>60</ttl><webMaster>TR114514的博客</webMaster><item><title>我的Minecraft服务器</title><link>http://blog.traveler.dpdns.org/post/12.html</link><description># 前言
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514的博客</title><link>http://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题</description><copyright>TR114514的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>http://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 13 Dec 2025 12:25:13 +0000</lastBuildDate><managingEditor>TR114514的博客</managingEditor><ttl>60</ttl><webMaster>TR114514的博客</webMaster><item><title>我的Minecraft服务器</title><link>http://blog.traveler.dpdns.org/post/12.html</link><description># 前言
 服务器还在**测试阶段**
 请做好随时关服的准备
 等到测试完毕后我会发布测试阶段的存档，并开启正式对开放阶段
@@ -313,4 +313,25 @@ initWidget({
 **废话不多说，不多说废话，地址就在最下面  :D**
 **这个里面我还会慢慢优选更多节点的  :D**
 **祝你天天开心，快快乐乐  :D**
-**[https://rayone.traveler.dpdns.org/sub?token=a391417319b58470f0be9d20f1ecabaf](https://rayone.traveler.dpdns.org/sub?token=a391417319b58470f0be9d20f1ecabaf)**。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/1.html</guid><pubDate>Sat, 13 Dec 2025 01:56:38 +0000</pubDate></item><item><title>关于我</title><link>http://blog.traveler.dpdns.org/about.html</link><description>关于我。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/about.html</guid><pubDate>Sat, 13 Dec 2025 02:24:55 +0000</pubDate></item><item><title>友情链接</title><link>http://blog.traveler.dpdns.org/link.html</link><description>我的友情链接列表。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/link.html</guid><pubDate>Sat, 13 Dec 2025 02:25:17 +0000</pubDate></item></channel></rss>
+**[https://rayone.traveler.dpdns.org/sub?token=a391417319b58470f0be9d20f1ecabaf](https://rayone.traveler.dpdns.org/sub?token=a391417319b58470f0be9d20f1ecabaf)**。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/1.html</guid><pubDate>Sat, 13 Dec 2025 01:56:38 +0000</pubDate></item><item><title>关于我</title><link>http://blog.traveler.dpdns.org/about.html</link><description>**关于我**
+
+&gt; **曾用名**: Traveler114514  
+&gt; **当前网名**: TR114514  
+
+---
+
+## 🎮 游戏爱好
+
+### 我的世界
+- 类型：沙盒创造
+- 喜欢：建造、红石工程、探索
+
+### 原神
+- 类型：开放世界角色扮演
+- 喜欢：探索提瓦特大陆、角色收集、剧情体验
+
+---
+
+## 📋 关于我
+
+我是一名热爱游戏与数字世界的探索者，从 Traveler114514 简化为 TR114514，保持了'旅行者'的核心含义。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/about.html</guid><pubDate>Sat, 13 Dec 2025 02:24:55 +0000</pubDate></item><item><title>友情链接</title><link>http://blog.traveler.dpdns.org/link.html</link><description>我的友情链接列表。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/link.html</guid><pubDate>Sat, 13 Dec 2025 02:25:17 +0000</pubDate></item></channel></rss>
