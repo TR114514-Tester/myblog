@@ -1,5 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514的博客</title><link>http://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题</description><copyright>TR114514的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>http://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 13 Dec 2025 10:39:22 +0000</lastBuildDate><managingEditor>TR114514的博客</managingEditor><ttl>60</ttl><webMaster>TR114514的博客</webMaster><item><title>使用我的主题</title><link>http://blog.traveler.dpdns.org/post/11.html</link><description># 前言
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514的博客</title><link>http://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题</description><copyright>TR114514的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>http://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 13 Dec 2025 10:47:00 +0000</lastBuildDate><managingEditor>TR114514的博客</managingEditor><ttl>60</ttl><webMaster>TR114514的博客</webMaster><item><title>我的Minecraft服务器</title><link>http://blog.traveler.dpdns.org/post/12.html</link><description># 前言
+服务器还在**测试阶段**
+请做好随时关服的准备
+等到测试完毕后我会发布测试阶段的存档，并开启正式对开放阶段
+# 连接服务器
+**1.打开wdsjfwq.com网站添加**
+`Gmeek-html&lt;a href='https://www.wdsjfwq.com/server-1440.html'&gt;&lt;img src='https://www.wdsjfwq.com/votebanner-1440-evevev.png' alt='TRCraft' /&gt;&lt;/a&gt;`
+**2.手动添加**
+```
+play.traveler.dpdns.org
+```
+复制上面的地址，打开你的Minecraft Java 版，添加服务器填入这个ip地址
+
+
+。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/12.html</guid><pubDate>Sat, 13 Dec 2025 10:46:32 +0000</pubDate></item><item><title>使用我的主题</title><link>http://blog.traveler.dpdns.org/post/11.html</link><description># 前言
 
 &gt; [!WARNING]
 &gt; 里面有AI的成分，稳定性不做承担.
