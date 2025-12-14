@@ -2,7 +2,7 @@
 本教程主要的思路就是：Gmeek生成博客在`docs`目录里面，就设置`CloudFlare Pages`的根目录为`docs`，然后绑定域名即可
 为什么部署到`CloudFlare Pages`？
 **因为国内Github访问速度不太理想**
-唯一加速的渠道我认为就是部署到`CloudFlare Pages`然后通过`CloudFlare CDN`进行'加速'
+我认为部署到`CloudFlare Pages`然后通过`CloudFlare CDN`进行'加速'是一种解决方案
 # 教程
 首先我们来到`CloudFlare`的`Worker 和 Pages`
 ![img](https://blog.traveler.dpdns.org/Tutorial/CloudFlarePagesGmeek/1.png)
