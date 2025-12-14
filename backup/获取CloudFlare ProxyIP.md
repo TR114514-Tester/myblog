@@ -51,3 +51,7 @@ ProxyIP指的是在CloudFlare Workers中那些能够成功代理连接到 Cloudf
 随便用一个软件打开
 搜索你需要的区域，比如`HK`
 这样我们就获取了`HK`的`ProxyIP`
+接下来该干什么你自己应该知道了   :D
+# 实际应用效果
+> 👤 访问非 Cloudflare CDN 站点时（如油管、谷歌等），你的 IP 归属地由「优选 IP」决定
+> 🌐 访问由 Cloudflare CDN 托管的网站时（如推特、ChatGPT等），你的 IP 归属地由「ProxyIP/SOCKS5/HTTP」决定
