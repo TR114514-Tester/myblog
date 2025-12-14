@@ -16,6 +16,7 @@
     "onePageListNum":10,
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "i18n":"CN",
+    "primerCSS":"<link href='https://blog.traveler.dpdns.org/files/primer.css' rel='stylesheet' />"
     "urlMode":"issue",
     "indexScript":"<script src='https://blog.traveler.dpdns.org/assets/pagination.js'></script>",
     "allHead":"<script src='https://blog.traveler.dpdns.org/assets/Theme_Vercount.js'><script src='https://blog.traveler.dpdns.org/assets/simple-ad.js'></script><script src='https://blog.traveler.dpdns.org/live2d/autoload.js'></script>",
