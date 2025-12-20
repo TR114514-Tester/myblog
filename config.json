@@ -9,7 +9,10 @@
     "singlePage":["about","link"],
     "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
     "startSite":"08/24/2025",
-    "UTC":8,
+    "UTC":8
+    "themeMode":"fix",
+    "dayTheme":"light",
+    "nightTheme":"github-light",
     "onePageListNum":15,
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "i18n":"CN",
