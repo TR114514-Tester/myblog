@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514の小窝</title><link>https://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题&lt;br&gt;吾志所向，一往无前，愈挫愈奋，再接再厉。 ——孙中山</description><copyright>TR114514の小窝</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog-assets.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>https://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 20 Dec 2025 12:22:38 +0000</lastBuildDate><managingEditor>TR114514の小窝</managingEditor><ttl>60</ttl><webMaster>TR114514の小窝</webMaster><item><title>《花雨庭 • 重启》</title><link>https://blog.traveler.dpdns.org/post/22.html</link><description># 正文
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514の小窝</title><link>https://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题&lt;br&gt;吾志所向，一往无前，愈挫愈奋，再接再厉。 ——孙中山</description><copyright>TR114514の小窝</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog-assets.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>https://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 20 Dec 2025 23:28:32 +0000</lastBuildDate><managingEditor>TR114514の小窝</managingEditor><ttl>60</ttl><webMaster>TR114514の小窝</webMaster><item><title>《花雨庭 • 重启》</title><link>https://blog.traveler.dpdns.org/post/22.html</link><description># 正文
 花雨庭最近[停服](https://mc.163.com/news/20251210/29175_1275702.html)了
 但是这不应该是'花雨庭'这个名字的结束
 我想在Minecraft Java版中继续延续'花雨庭'这个名字
@@ -195,35 +195,29 @@ ProxyIP指的是在CloudFlare Workers中那些能够成功代理连接到 Cloudf
 &gt; [!WARNING]
 &gt; 里面有AI的成分，稳定性不做承担.
 
-# 无Vercount版
-打开[https://github.com/TR114514-Tester/myblog/blob/main/static/assets/Theme.js](https://github.com/TR114514-Tester/myblog/blob/main/static/assets/Theme.js)
+# 使用
+打开[https://blog-assets.traveler.dpdns.org/assets/Theme.js](https://blog-assets.traveler.dpdns.org/assets/Theme.js)
 复制里面的全部代码
 放到你仓库的`static`目录下
 点击`Actions &gt; Build Gmeek &gt; Run Workflow &gt; RunWorkflow`
 这样子就可以通过`yourusername.github.io/Theme.js`获取到主题内容了
 # 配置
 ```javascript
-const BLUR_INTENSITY = '8px'; // 高斯模糊程度，可修改这个值
-const BUTTON_HOVER_COLOR = '#8A2BE2'; // 右上角按钮悬浮颜色，可修改这个值（支持 #000000, rgb(255,0,0), rgba(255,0,0,0.8) 等格式）
-const BACKGROUND = 'http://blog.traveler.dpdns.org/assets/image/background.png';
-const ENABLE_RAIN_EFFECT = true; // 是否启用下雨效果，true为启用，false为关闭
+    // ==================== 背景设置 ====================
+    // 在这里设置你的背景图片地址
+    const BACKGROUND_IMAGE_URL = 'https://blog-assets.traveler.dpdns.org/assets/image/background.png';
+    
+    // 可选：设置背景透明度（0-1之间）
+    const BODY_BG_OPACITY = 0.8;
+    const SIDENAV_BG_OPACITY = 0.6;
 ```
 虽然有注释，但是我还是得讲一下
 
 | 变量名  | 变量值  |
 | ------------ | ------------ |
-| BLUR_INTENSITY  | 高斯模糊的值，越低越清晰，越高越模糊，示例值：8px  |
-| BUTTON_HOVER_COLOR   | 当鼠标悬停在上面时右上角按钮的颜色，示例值：#8A2BE2  |
-| BACKGROUND   | 你博客的背景图片，填网址即可  |
-| ENABLE_RAIN_EFFECT | 是否在你的博客开启下雨状态，填true或false  |
-
-# 有Vercount版
-打开[https://github.com/TR114514-Tester/myblog/blob/main/static/assets/Theme_Vercount.js](https://github.com/TR114514-Tester/myblog/blob/main/static/assets/Theme_Vercount.js)
-复制里面的全部代码
-放到你仓库的`static`目录下
-点击`Actions &gt; Build Gmeek &gt; Run Workflow &gt; RunWorkflow`
-这样子就可以通过`yourusername.github.io/Theme_Vercount.js`获取到主题内容了
-后面步骤一样。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/11.html</guid><pubDate>Sat, 13 Dec 2025 10:38:51 +0000</pubDate></item><item><title>ZeroTermux搭建我的世界服务器</title><link>https://blog.traveler.dpdns.org/post/10.html</link><description>
+| BACKGROUND_IMAGE_URL  | 背景图片  |
+| BODY_BG_OPACITY  | body的透明度  |
+| SIDENAV_BG_OPACITY | sidenav的透明度  |。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/11.html</guid><pubDate>Sat, 13 Dec 2025 10:38:51 +0000</pubDate></item><item><title>ZeroTermux搭建我的世界服务器</title><link>https://blog.traveler.dpdns.org/post/10.html</link><description>
 
 # 视频教程
 `Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;bvid=BV1TBgvewEZP&amp;cid=1557311907&amp;p=1&amp;autoplay=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' width='100%' height='460px'&gt;&lt;/iframe&gt;`。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/10.html</guid><pubDate>Sat, 13 Dec 2025 09:26:19 +0000</pubDate></item><item><title>在自己的网站添加Live2D看板娘</title><link>https://blog.traveler.dpdns.org/post/9.html</link><description># Live2D-Widget
