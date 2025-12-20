@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514的Blog</title><link>http://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题&lt;br&gt;吾志所向，一往无前，愈挫愈奋，再接再厉。 ——孙中山</description><copyright>TR114514的Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog-assets.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>http://blog.traveler.dpdns.org</link></image><lastBuildDate>Fri, 19 Dec 2025 10:39:09 +0000</lastBuildDate><managingEditor>TR114514的Blog</managingEditor><ttl>60</ttl><webMaster>TR114514的Blog</webMaster><item><title>《花雨庭 • 重启》</title><link>http://blog.traveler.dpdns.org/post/22.html</link><description># 正文
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>TR114514的Blog</title><link>https://blog.traveler.dpdns.org</link><description>你好！我叫TR114514（Traveler114514），一位中国人，很高兴遇见你！我会在这里分享一些技术性的话题&lt;br&gt;吾志所向，一往无前，愈挫愈奋，再接再厉。 ——孙中山</description><copyright>TR114514的Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://blog-assets.traveler.dpdns.org/assets/image/icon.png</url><title>avatar</title><link>https://blog.traveler.dpdns.org</link></image><lastBuildDate>Sat, 20 Dec 2025 10:29:16 +0000</lastBuildDate><managingEditor>TR114514的Blog</managingEditor><ttl>60</ttl><webMaster>TR114514的Blog</webMaster><item><title>《花雨庭 • 重启》</title><link>https://blog.traveler.dpdns.org/post/22.html</link><description># 正文
 花雨庭最近[停服](https://mc.163.com/news/20251210/29175_1275702.html)了
 但是这不应该是'花雨庭'这个名字的结束
 我想在Minecraft Java版中继续延续'花雨庭'这个名字
@@ -7,9 +7,9 @@
 我的起床服务端用的是b站[一般路过羽末末](https://space.bilibili.com/28525429)的[花雨庭起床端](https://www.bilibili.com/video/BV11QqaBtEgt/)，在此感谢
 空岛服务端我会自己制作
 我本人不常用[Velocity](https://papermc.io/software/velocity/)和[BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)，所以在配置方面可能会有一点脑残
-希望你可以帮助到我！。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/22.html</guid><pubDate>Fri, 19 Dec 2025 10:10:38 +0000</pubDate></item><item><title>我的世界光影风景照</title><link>http://blog.traveler.dpdns.org/post/21.html</link><description>**感觉拍的不怎么好看**
+希望你可以帮助到我！。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/22.html</guid><pubDate>Fri, 19 Dec 2025 10:10:38 +0000</pubDate></item><item><title>我的世界光影风景照</title><link>https://blog.traveler.dpdns.org/post/21.html</link><description>**感觉拍的不怎么好看**
 `Gmeek-html&lt;img src='https://blog.traveler.dpdns.org/Image/21/1.png'&gt;`
-`Gmeek-html&lt;img src='https://blog.traveler.dpdns.org/Image/21/2.png'&gt;`。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/21.html</guid><pubDate>Sun, 14 Dec 2025 11:50:00 +0000</pubDate></item><item><title>我的世界超低配光影分享</title><link>http://blog.traveler.dpdns.org/post/20.html</link><description># 前言
+`Gmeek-html&lt;img src='https://blog.traveler.dpdns.org/Image/21/2.png'&gt;`。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/21.html</guid><pubDate>Sun, 14 Dec 2025 11:50:00 +0000</pubDate></item><item><title>我的世界超低配光影分享</title><link>https://blog.traveler.dpdns.org/post/20.html</link><description># 前言
 像各种高级光影低性能的电脑肯定带不动，所有就整理出来了这份列表，保证你核显都带得动！
 # 列表
 
@@ -30,8 +30,8 @@
 | [Sildur's Enhanced Default](https://www.curseforge.com/minecraft/shaders/sildurs-enhanced-default)  | 没用过...  |
 | 等待更新  | 最后更新于2025/12/14  |
 
-**列表仅做参考**。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/20.html</guid><pubDate>Sun, 14 Dec 2025 11:20:25 +0000</pubDate></item><item><title>内网穿透我的世界服务器</title><link>http://blog.traveler.dpdns.org/post/19.html</link><description># 内网穿透是什么
-内网穿透，也称为NAT穿透，是一种网络技术，允许外网用户访问位于内网（局域网）中的服务。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/19.html</guid><pubDate>Sun, 14 Dec 2025 05:22:56 +0000</pubDate></item><item><title>搭建一个属于自己的我的世界服务器</title><link>http://blog.traveler.dpdns.org/post/18.html</link><description># 前言
+**列表仅做参考**。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/20.html</guid><pubDate>Sun, 14 Dec 2025 11:20:25 +0000</pubDate></item><item><title>内网穿透我的世界服务器</title><link>https://blog.traveler.dpdns.org/post/19.html</link><description># 内网穿透是什么
+内网穿透，也称为NAT穿透，是一种网络技术，允许外网用户访问位于内网（局域网）中的服务。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/19.html</guid><pubDate>Sun, 14 Dec 2025 05:22:56 +0000</pubDate></item><item><title>搭建一个属于自己的我的世界服务器</title><link>https://blog.traveler.dpdns.org/post/18.html</link><description># 前言
 
 &gt; [!TIP]
 &gt; 仅用于朋友联机使用
@@ -177,20 +177,20 @@ online-mode=false
 
 
 
-。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/18.html</guid><pubDate>Sun, 14 Dec 2025 02:32:44 +0000</pubDate></item><item><title>交换友链</title><link>http://blog.traveler.dpdns.org/post/17.html</link><description>在下面评论，我会添加的
+。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/18.html</guid><pubDate>Sun, 14 Dec 2025 02:32:44 +0000</pubDate></item><item><title>交换友链</title><link>https://blog.traveler.dpdns.org/post/17.html</link><description>在下面评论，我会添加的
 格式：
 ```
 name:名字
 url:地址
 icon:网站的头像
 message:要留下的话
-```。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/17.html</guid><pubDate>Sun, 14 Dec 2025 02:07:15 +0000</pubDate></item><item><title>获取CloudFlare ProxyIP</title><link>http://blog.traveler.dpdns.org/post/16.html</link><description># ProxyIP是什么？
+```。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/17.html</guid><pubDate>Sun, 14 Dec 2025 02:07:15 +0000</pubDate></item><item><title>获取CloudFlare ProxyIP</title><link>https://blog.traveler.dpdns.org/post/16.html</link><description># ProxyIP是什么？
 ProxyIP指的是在CloudFlare Workers中那些能够成功代理连接到 Cloudflare 服务的第三方 IP 地址
 根据 Cloudflare Workers 的 [TCP Sockets 官方文档](https://developers.cloudflare.com/workers/runtime-apis/tcp-sockets/) 说明，存在以下技术限制：
 
 &gt; ⚠️ Outbound TCP sockets to [Cloudflare IP ranges ↗](https://www.cloudflare.com/ips/) are temporarily blocked, but will be re-enabled shortly.
 
-这意味着 Cloudflare Workers 无法直接连接到 Cloudflare 自有的 IP 地址段。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/16.html</guid><pubDate>Sat, 13 Dec 2025 23:50:05 +0000</pubDate></item><item><title>晚安</title><link>http://blog.traveler.dpdns.org/post/15.html</link><description>晚安玛卡巴卡。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/15.html</guid><pubDate>Sat, 13 Dec 2025 13:27:05 +0000</pubDate></item><item><title>使用我的主题</title><link>http://blog.traveler.dpdns.org/post/11.html</link><description># 前言
+这意味着 Cloudflare Workers 无法直接连接到 Cloudflare 自有的 IP 地址段。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/16.html</guid><pubDate>Sat, 13 Dec 2025 23:50:05 +0000</pubDate></item><item><title>晚安</title><link>https://blog.traveler.dpdns.org/post/15.html</link><description>晚安玛卡巴卡。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/15.html</guid><pubDate>Sat, 13 Dec 2025 13:27:05 +0000</pubDate></item><item><title>使用我的主题</title><link>https://blog.traveler.dpdns.org/post/11.html</link><description># 前言
 
 &gt; [!WARNING]
 &gt; 里面有AI的成分，稳定性不做承担.
@@ -223,10 +223,10 @@ const ENABLE_RAIN_EFFECT = true; // 是否启用下雨效果，true为启用，f
 放到你仓库的`static`目录下
 点击`Actions &gt; Build Gmeek &gt; Run Workflow &gt; RunWorkflow`
 这样子就可以通过`yourusername.github.io/Theme_Vercount.js`获取到主题内容了
-后面步骤一样。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/11.html</guid><pubDate>Sat, 13 Dec 2025 10:38:51 +0000</pubDate></item><item><title>ZeroTermux搭建我的世界服务器</title><link>http://blog.traveler.dpdns.org/post/10.html</link><description>
+后面步骤一样。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/11.html</guid><pubDate>Sat, 13 Dec 2025 10:38:51 +0000</pubDate></item><item><title>ZeroTermux搭建我的世界服务器</title><link>https://blog.traveler.dpdns.org/post/10.html</link><description>
 
 # 视频教程
-`Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;bvid=BV1TBgvewEZP&amp;cid=1557311907&amp;p=1&amp;autoplay=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' width='100%' height='460px'&gt;&lt;/iframe&gt;`。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/10.html</guid><pubDate>Sat, 13 Dec 2025 09:26:19 +0000</pubDate></item><item><title>在自己的网站添加Live2D看板娘</title><link>http://blog.traveler.dpdns.org/post/9.html</link><description># Live2D-Widget
+`Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;bvid=BV1TBgvewEZP&amp;cid=1557311907&amp;p=1&amp;autoplay=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' width='100%' height='460px'&gt;&lt;/iframe&gt;`。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/10.html</guid><pubDate>Sat, 13 Dec 2025 09:26:19 +0000</pubDate></item><item><title>在自己的网站添加Live2D看板娘</title><link>https://blog.traveler.dpdns.org/post/9.html</link><description># Live2D-Widget
 首先，打开原作者的地址[live2d-widget](https://github.com/stevenjoezhang/live2d-widget/ 'live2d-widget')可以看到有一个一键部署
 ```javascript
 &lt;script src='https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js'&gt;&lt;/script&gt;
@@ -339,7 +339,7 @@ initWidget({
 ```
 
 最后
-**刷新即可生效**。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/9.html</guid><pubDate>Sat, 13 Dec 2025 09:11:02 +0000</pubDate></item><item><title>EdgeTunnel优选教程</title><link>http://blog.traveler.dpdns.org/post/6.html</link><description># 前言
+**刷新即可生效**。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/9.html</guid><pubDate>Sat, 13 Dec 2025 09:11:02 +0000</pubDate></item><item><title>EdgeTunnel优选教程</title><link>https://blog.traveler.dpdns.org/post/6.html</link><description># 前言
 
 &gt; [!TIP]
 &gt; EdgeTunnel目前还只是Error 1101报错，但之后会不会封号还不清楚，最好是在小号上部署，名字不要写edgetunnel,tunnel,proxy之类的敏感词
@@ -348,11 +348,11 @@ initWidget({
 打开你的后台管理面板，点开**优选订阅生成**，选择**自定义优选**
 ![EdgeTunnelYouXuan](https://blog.traveler.dpdns.org/Tutorial/EdgeTunnelYouXuan/yx1.png)
 点击**在线优选**即可开始优选
-![EdgeTunnelYouXuan](https://blog.traveler.dpdns.org/Tutorial/EdgeTunnelYouXuan/yx2.png)。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/6.html</guid><pubDate>Sat, 13 Dec 2025 02:08:33 +0000</pubDate></item><item><title>KL_9191索要正版录（第三集）</title><link>http://blog.traveler.dpdns.org/post/5.html</link><description># 前言
+![EdgeTunnelYouXuan](https://blog.traveler.dpdns.org/Tutorial/EdgeTunnelYouXuan/yx2.png)。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/6.html</guid><pubDate>Sat, 13 Dec 2025 02:08:33 +0000</pubDate></item><item><title>KL_9191索要正版录（第三集）</title><link>https://blog.traveler.dpdns.org/post/5.html</link><description># 前言
 不多说直接上
 # 图片
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_3/j1.png)
-![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_3/j2.png)。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/5.html</guid><pubDate>Sat, 13 Dec 2025 02:06:55 +0000</pubDate></item><item><title>KL_9191索要正版录（第二集）</title><link>http://blog.traveler.dpdns.org/post/4.html</link><description># 高光时刻
+![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_3/j2.png)。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/5.html</guid><pubDate>Sat, 13 Dec 2025 02:06:55 +0000</pubDate></item><item><title>KL_9191索要正版录（第二集）</title><link>https://blog.traveler.dpdns.org/post/4.html</link><description># 高光时刻
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_2/g1.png)
 **烦我就对了**嘻嘻
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_2/j9.png)
@@ -385,7 +385,7 @@ initWidget({
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_2/j16.png)
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_2/j17.png)
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_2/j18.png)
-![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_2/j19.png)。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/4.html</guid><pubDate>Sat, 13 Dec 2025 02:05:33 +0000</pubDate></item><item><title>KL_9191索要正版录（第一集）</title><link>http://blog.traveler.dpdns.org/post/3.html</link><description># 高光时刻
+![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_2/j19.png)。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/4.html</guid><pubDate>Sat, 13 Dec 2025 02:05:33 +0000</pubDate></item><item><title>KL_9191索要正版录（第一集）</title><link>https://blog.traveler.dpdns.org/post/3.html</link><description># 高光时刻
 **哥们谁家好人一上来就要正版啊**
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_1/j1.png)
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_1/g1.png)
@@ -417,7 +417,7 @@ initWidget({
 ![KL9191](http://blog.traveler.dpdns.org/Joke/KL_9191_1/j16.png)
 ![KL9191](http://blog.traveler.dpdns.org/Joke/Joke/KL_9191_1_1/j17.png)
 # 开喷环节
-哥们你是全家死光了吗，想认领一个当自己儿子？不然没后代了是吗，一个Gamehag不会注册你是怎么注册QQ，使用QQ，以及使用电脑的，话说你是XXS吗，如果是的话，那还情有可原（确实是，在第三集中说到了），老是想着占别人便宜干嘛，小心我也占你便宜哦，你想开服？好啊，我可以教，毕竟开服我自己都不是一天两天会开服的，但是你以开服的借口禁言我，那就是没道理了。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/3.html</guid><pubDate>Sat, 13 Dec 2025 02:03:59 +0000</pubDate></item><item><title>EdgeTunnel部署教程</title><link>http://blog.traveler.dpdns.org/post/2.html</link><description># 前言
+哥们你是全家死光了吗，想认领一个当自己儿子？不然没后代了是吗，一个Gamehag不会注册你是怎么注册QQ，使用QQ，以及使用电脑的，话说你是XXS吗，如果是的话，那还情有可原（确实是，在第三集中说到了），老是想着占别人便宜干嘛，小心我也占你便宜哦，你想开服？好啊，我可以教，毕竟开服我自己都不是一天两天会开服的，但是你以开服的借口禁言我，那就是没道理了。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/3.html</guid><pubDate>Sat, 13 Dec 2025 02:03:59 +0000</pubDate></item><item><title>EdgeTunnel部署教程</title><link>https://blog.traveler.dpdns.org/post/2.html</link><description># 前言
 
 &gt; [!TIP]
 &gt; 部署后可能会有Error 1101风险
@@ -493,13 +493,13 @@ initWidget({
 点击自适应订阅右边的**复制订阅**
 ![cf16](https://blog.traveler.dpdns.org/Tutorial/CloudFlareBuildEdgeTunnel/cf17.png?raw=true)
 添加到**代理软件**里，会发现有很多节点，但在我这里ping不通，下一篇文章我会教你优选IP来进行使用
-![cf17](https://blog.traveler.dpdns.org/Tutorial/CloudFlareBuildEdgeTunnel/cf18.png?raw=true)。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/2.html</guid><pubDate>Sat, 13 Dec 2025 02:01:00 +0000</pubDate></item><item><title>免费V2RayN节点分享</title><link>http://blog.traveler.dpdns.org/post/1.html</link><description>你好啊，看到这个标题你肯定是奔着订阅地址来的吧
+![cf17](https://blog.traveler.dpdns.org/Tutorial/CloudFlareBuildEdgeTunnel/cf18.png?raw=true)。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/2.html</guid><pubDate>Sat, 13 Dec 2025 02:01:00 +0000</pubDate></item><item><title>免费V2RayN节点分享</title><link>https://blog.traveler.dpdns.org/post/1.html</link><description>你好啊，看到这个标题你肯定是奔着订阅地址来的吧
 废话不多说，不多说废话，地址就在最下面
 这个里面我还会慢慢优选更多节点的
 祝你天天开心，快快乐乐
 **下面两个都是一样的，只不过地址不一样**
 https://rayone.traveler.dpdns.org/sub?token=a391417319b58470f0be9d20f1ecabaf
-https://rayone.traveler.de5.net/sub?token=e9fcba27abaf11b20d4dacc46a54413a。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/post/1.html</guid><pubDate>Sat, 13 Dec 2025 01:56:38 +0000</pubDate></item><item><title>关于我</title><link>http://blog.traveler.dpdns.org/about.html</link><description>**关于我**
+https://rayone.traveler.de5.net/sub?token=e9fcba27abaf11b20d4dacc46a54413a。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/post/1.html</guid><pubDate>Sat, 13 Dec 2025 01:56:38 +0000</pubDate></item><item><title>关于我</title><link>https://blog.traveler.dpdns.org/about.html</link><description>**关于我**
 
 &gt; **曾用名**: Traveler114514  
 &gt; **当前网名**: TR114514  
@@ -520,4 +520,4 @@ https://rayone.traveler.de5.net/sub?token=e9fcba27abaf11b20d4dacc46a54413a。</d
 
 ## 📋 关于我
 
-我是一名热爱游戏与数字世界的探索者，从 Traveler114514 简化为 TR114514，保持了'旅行者'的核心含义。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/about.html</guid><pubDate>Sat, 13 Dec 2025 02:24:55 +0000</pubDate></item><item><title>友情链接</title><link>http://blog.traveler.dpdns.org/link.html</link><description>我的友情链接列表。</description><guid isPermaLink="true">http://blog.traveler.dpdns.org/link.html</guid><pubDate>Sat, 13 Dec 2025 02:25:17 +0000</pubDate></item></channel></rss>
+我是一名热爱游戏与数字世界的探索者，从 Traveler114514 简化为 TR114514，保持了'旅行者'的核心含义。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/about.html</guid><pubDate>Sat, 13 Dec 2025 02:24:55 +0000</pubDate></item><item><title>友情链接</title><link>https://blog.traveler.dpdns.org/link.html</link><description>我的友情链接列表。</description><guid isPermaLink="true">https://blog.traveler.dpdns.org/link.html</guid><pubDate>Sat, 13 Dec 2025 02:25:17 +0000</pubDate></item></channel></rss>
