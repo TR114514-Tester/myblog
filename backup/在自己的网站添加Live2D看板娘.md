@@ -6,7 +6,7 @@
 但是我们地处**中国**，所以在国内慢成依托答辩
 所以把他上传到我们的**网站**即可
 我们打开[live2d-widget](https://github.com/stevenjoezhang/live2d-widget/ "live2d-widget")的Github界面，下载它的ZIP，然后我们上传到网站根目录（只需要把`dist`文件夹里面的上传即可）
-我的地址：[https://blog.traveler.dpdns.org/live2d/](https://blog.traveler.dpdns.org/live2d/)
+我的地址：[https://blog-assets.traveler.dpdns.org/live2d/](https://blog-assets.traveler.dpdns.org/live2d/)
 
 # 配置Live2D-Widget
 
@@ -14,7 +14,7 @@
 > 请跟着我一步步配置
 
 打开`autoload.js`
-修改`live2d_path`为自己上传的路径，也就是**https://blog.traveler.dpdns.org/live2d/**
+修改`live2d_path`为自己上传的路径，也就是**https://blog-assets.traveler.dpdns.org/live2d/**
 **示例**：
 
 ```javascript
@@ -25,7 +25,7 @@
 
 // Recommended to use absolute path for live2d_path parameter
 // live2d_path 参数建议使用绝对路径
-const live2d_path = 'https://blog.traveler.dpdns.org/live2d/';
+const live2d_path = 'https://blog-assets.traveler.dpdns.org/live2d/';
 // const live2d_path = '/dist/';
 ```
 
@@ -34,7 +34,7 @@ const live2d_path = 'https://blog.traveler.dpdns.org/live2d/';
 ```javascript
 initWidget({
     waifuPath: live2d_path + 'waifu-tips.json',
-    cdnPath: 'https://blog.traveler.dpdns.org/live2d_api/',
+    cdnPath: 'https://blog-assets.traveler.dpdns.org/live2d_api/',
     cubism2Path: live2d_path + 'live2d.min.js',
     cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
     tools: ['hitokoto', 'asteroids', 'switch-model', 'switch-texture', 'photo', 'info'],
