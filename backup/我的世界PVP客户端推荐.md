@@ -1,7 +1,7 @@
 | 客户端  | 价格及crk  | 看法  |
 | ------------ | ------------ | ------------ |
 | [LiquidBounce (Nextgen)](http://liquidbounce.cn/)  | 免费开源  | 挂圈的客户端有一半是基于CCBlueX的Liquidbounce的  |
-| Lizz  | 免费开源  | RainRuin基于LiquidBounce写的  |
+| [Lizz](https://qm.qq.com/q/fUM45NXE8o)  | 免费开源  | RainRuin基于LiquidBounce写的  |
 | [Augustus](https://www.electriclauncher.de/buy)  | 659.47RMB 有crk  | 绕过最好的客户端  |
 | [Rise](https://riseclient.com/)  | 265RMB 有crk  | 适合hyp和hey双修的玩家  |
 | [Myau](https://bakamarisa.shop/)  | 230RMB 饭桶老版本开源  | hyp  |
